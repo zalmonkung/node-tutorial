@@ -1,8 +1,13 @@
 {
   "name": "nodetutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "node-tutorial",
   "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.2"
+    
+  },
+   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/zalmonkung/node-tutorial/issues"
   },
-  "homepage": "https://github.com/zalmonkung/node-tutorial#readme"
+  "homepage": "https://github.com/zalmonkung/node-tutorial#readme",
+  "keywords": [
+    "express"
+  ]
 }
